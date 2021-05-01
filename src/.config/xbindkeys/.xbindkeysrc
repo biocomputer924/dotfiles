@@ -1,0 +1,43 @@
+"windowctl unset windows/$(windowctl get current_window)"
+    m:0x40 + c:24
+    Mod4 + q
+
+"windowctl fullscreen"
+    m:0x40 + c:111
+    Mod4 + Up
+
+"echo true | windowctl set desktops/$(windowctl get desktops/$(windowctl get current_desktop)/previous)/is_focused"
+    m:0x40 + c:113
+    Mod4 + Left
+
+"echo true | windowctl set desktops/$(windowctl get desktops/$(windowctl get current_desktop)/next)/is_focused"
+    m:0x40 + c:114
+    Mod4 + Right
+
+"j4-dmenu-desktop --dmenu="dmenu $(cat $HOME/.config/dmenu/flags.conf)""
+    m:0x40 + c:36
+    Mod4 + Return
+
+"gnome-screenshot -i"
+    m:0x0 + c:107
+    Print
+
+"xterm"
+    m:0x41 + c:36
+    Shift + Mod4 + Return
+
+"amixer -c PCH set PCM 5%-"
+    m:0x0 + c:122
+    XF86AudioLowerVolume
+
+"amixer -c PCH set PCM 5%+"
+    m:0x0 + c:123
+    XF86AudioRaiseVolume
+
+"xbacklight -dec 10"
+    m:0x0 + c:232
+    XF86MonBrightnessDown
+
+"xbacklight -inc 10"
+    m:0x0 + c:233
+    XF86MonBrightnessUp

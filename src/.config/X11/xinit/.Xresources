@@ -1,0 +1,32 @@
+*background: #202020
+*foreground: #FFFFFF
+*color0: #000000
+*color1: #FF0000
+*color2: #00AF5F
+*color3: #FFDF5F
+*color4: #005FD7
+*color5: #FF005F
+*color6: #0087D7
+*color7: #A0A0A0
+*color8: #A0A0A0
+*color9: #FF5F5F
+*color10: #00D787
+*color11: #FFDF5F
+*color12: #0087FF
+*color13: #FF005F
+*color14: #00A0FF
+*color15: #FFFFFF
+
+xterm*cursorColor: #FF4090
+xterm*cursorOffTime: 600
+xterm*cursorOnTime: 600
+xterm*faceName: Noto Mono
+xterm*faceNameDoublesize: Noto Sans Mono CJK JP Regular
+xterm*faceSize: 11
+xterm*highlightColor: #502030
+xterm*internalBorder: 0
+xterm*scaleHeight: 1.1
+xterm*selectToClipboard: true
+xterm*termName: xterm-256color
+xterm*toolBar: false
+xterm*visualBell: false
